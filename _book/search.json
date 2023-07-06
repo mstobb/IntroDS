@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Introduction to Data Science",
+    "section": "",
+    "text": "This book was written to fill a gap in the literature. It is intended for an audience:\n\nWith little to no programming experience\nInterested in Data Science as an idea\nWanting to become more comfortable working with data"
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "See Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever."
+  },
+  {
+    "objectID": "example_notebook.html",
+    "href": "example_notebook.html",
+    "title": "3  Example Notebook",
+    "section": "",
+    "text": "With some body text.\nTo test if everything is working, see Figure 3.1.\n\n\nCode\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx = np.linspace(-5,5)\ny = x**2\n\nplt.plot(x,y, linewidth=4)\nplt.show()\n\n\n\n\n\nFigure 3.1: A simple quadratic curve.\n\n\n\n\nFigure 3.1 above is a cool demonstration of what the Quatro publishing suite can do using notebook."
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  }
+]

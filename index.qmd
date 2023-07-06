@@ -1,0 +1,8 @@
+# Preface {.unnumbered}
+
+This book was written to fill a gap in the literature.  It is intended for an audience:
+
+- With little to no programming experience
+- Interested in Data Science as an idea
+- Wanting to become more comfortable working with data
+
