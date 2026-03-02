@@ -1,25 +1,25 @@
 project:
   type: book
+  resources:
+    - "data/"
   output-dir: docs
 
 book:
   title: "Introduction to Data Science"
   author: "Michael T. Stobb"
-  date: "9/7/2022"
+  date: "1/1/2026"
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - example_notebook.ipynb
-    - references.qmd
-
-bibliography: references.bib
+    - chapters/01-introduction.qmd
 
 format:
-  html:
-    theme: darkly
-  pdf:
-    documentclass: scrreprt
+  live-html:
+    theme:
+      dark: darkly
+      light: flatly
+    toc: true
 
+filters:
+  - live
 
-
+engine: jupyter

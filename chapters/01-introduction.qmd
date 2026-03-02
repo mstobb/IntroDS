@@ -1,0 +1,27 @@
+---
+title: "Introduction"
+---
+
+Welcome to the first chapter. Below is a standard, static Python cell. It is executed purely at render-time, and its outputs are frozen into the resulting page:
+
+```{python}
+print("This is a standard cell. It runs when the book is rendered by Quarto.")
+```
+
+Below is an interactive `quarto-live` Pyodide cell. You can edit and run it right in your browser!
+
+```{pyodide}
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Create some data for plotting
+data = {'x': [1, 2, 3, 4, 5],
+        'y': [2, 4, 1, 8, 7]}
+df = pd.DataFrame(data)
+
+plt.plot(df['x'], df['y'], marker='o', linestyle='-', color='b')
+plt.title('Sample Interactive Plot')
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
+plt.show()
+```

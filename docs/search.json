@@ -4,34 +4,19 @@
     "href": "index.html",
     "title": "Introduction to Data Science",
     "section": "",
-    "text": "This book was written to fill a gap in the literature. It is intended for an audience:\n\nWith little to no programming experience\nInterested in Data Science as an idea\nWanting to become more comfortable working with data"
+    "text": "Welcome to the Introduction to Data Science course!\nThis interactive textbook runs Python completely in your browser without requiring any installation or servers!\nNavigate through the chapters using the sidebar to begin your journey.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome</span>"
+    ]
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
+    "objectID": "chapters/01-introduction.html",
+    "href": "chapters/01-introduction.html",
+    "title": "2  Introduction",
     "section": "",
-    "text": "See Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever."
-  },
-  {
-    "objectID": "example_notebook.html",
-    "href": "example_notebook.html",
-    "title": "3  Example Notebook",
-    "section": "",
-    "text": "With some body text.\nTo test if everything is working, see Figure 3.1.\n\n\nCode\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx = np.linspace(-5,5)\ny = x**2\n\nplt.plot(x,y, linewidth=4)\nplt.show()\n\n\n\n\n\nFigure 3.1: A simple quadratic curve.\n\n\n\n\nFigure 3.1 above is a cool demonstration of what the Quatro publishing suite can do using notebook."
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "Welcome to the first chapter. Below is a standard, static Python cell. It is executed purely at render-time, and its outputs are frozen into the resulting page:\n\nprint(\"This is a standard cell. It runs when the book is rendered by Quarto.\")\n\nThis is a standard cell. It runs when the book is rendered by Quarto.\n\n\nBelow is an interactive quarto-live Pyodide cell. You can edit and run it right in your browser!",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
   }
 ]

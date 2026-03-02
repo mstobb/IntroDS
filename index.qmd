@@ -1,8 +1,9 @@
-# Preface {.unnumbered}
+---
+title: "Welcome"
+---
 
-This book was written to fill a gap in the literature.  It is intended for an audience:
+Welcome to the **Introduction to Data Science** course!
 
-- With little to no programming experience
-- Interested in Data Science as an idea
-- Wanting to become more comfortable working with data
+This interactive textbook runs Python completely in your browser without requiring any installation or servers! 
 
+Navigate through the chapters using the sidebar to begin your journey.
